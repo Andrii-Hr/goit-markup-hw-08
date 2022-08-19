@@ -1,0 +1,65 @@
+
+:root{
+ --primary-text-color: #212121;
+
+ --title-text-color:#757575;
+
+--accent-color: #2196F3;
+
+--primary-bg-color:#F5F5F5;
+
+--second-bg-color:#F5F4FA;
+
+--black-bg:#2F303A;
+}
+
+
+body {font-family: 'Montserrat', sans-serif;
+ background-color:var(--primary-bg-color);
+}
+
+/* основной цвет color: #212121 *
+
+/* вторичный основной цвет color: #757575;  */
+
+/* Акцент color: #2196F3; */
+
+/* Белый color: #FFFFFF; */
+
+/* Цвет фона background: #F5F5F5; */
+
+/* Вторичный цвет фона background: #F5F4FA; */
+
+/* Тёмный фон background: #2F303A; */
+
+.logo {
+  color: var(--primary-text-color);
+}
+.list {list-style: none;}
+
+/* Site-nav */
+
+.site-nav{
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {   
+color:var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+    color:var(--primary-text-color);
+}
+
+/* Section */
+.section-title{
+    color: var(--primary-text-color);
+}
+
+.feature-list .title{
+color: var(--primary-text-color);
+}
+.feature-list .link{
+    color:var(--primary-text-color);
+}
