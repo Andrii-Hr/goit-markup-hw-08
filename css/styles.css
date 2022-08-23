@@ -132,6 +132,6 @@ color: rgba(255, 255, 255, 0.6);
 .logo-footer {
     color: var(--primary-white-color);
   }
-  .logo-foter:hover {
+  .logo-footer:hover {
       color: var(--accent-color);
   }
