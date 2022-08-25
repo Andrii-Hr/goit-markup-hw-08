@@ -62,30 +62,16 @@ line-height: 1.2;
 
 /* Site-nav */
 
-.site-nav{
-color: var(--primary-text-col);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 
-
-}
 .site-nav .link:hover,
 .site-nav .link:focus {
 color:var(--accent-color);
 
 }
-.site-nav .link.current {
-color: var(--accent-color);
-
-}
 
 
 /* Hero */
-.hero{
- background: #2F303A;
-}
+
 .hero-title {
 color:var(--primary-white-color);
 font-weight: 900;
@@ -147,8 +133,14 @@ text-align: center;
 
 .link{
 color: var(--primary-text-color);
-background-color: var(--primary-bg-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 text-decoration: none;
+}
+.link.current {
+color: var(--accent-color)
 }
 
 .button {
@@ -157,13 +149,13 @@ color: var(--primary-white-color);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
+cursor: pointer;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-text-decoration: none;
-cursor: pointer;
 }
+
 
 /* Footer */
 .footer{
