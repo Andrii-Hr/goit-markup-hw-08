@@ -17,7 +17,7 @@
 
 
 body {
-font-family: 'Roboto', 'Montserrat', 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 background-color:var(--primary-bg-color);
 color: var(--primary-text-color);
 letter-spacing: 0.03em;
@@ -142,6 +142,9 @@ text-decoration: none;
 .link.current {
 color: var(--accent-color)
 }
+.link.numb-post {
+    color: var(--title-text-color)
+}
 
 .button {
 background-color: var(--accent-color);
@@ -159,7 +162,8 @@ letter-spacing: 0.06em;
 
 /* Footer */
 .footer{
-    background-color: var(--black-bg);
+background-color: var(--black-bg);
+
 }
 
 .footer-nav {
@@ -167,18 +171,21 @@ font-size: 14px;
 line-height: 1.7;
 color: var(--primary-white-color);
 text-decoration: none;
+
 }
 .footer .footer-nav:hover,
-.footer .footer-link:hover {
+.footer-nav .footer-link:hover {
     color:var(--accent-color)
 }
 .footer-link  {
+font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.7;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 }
 .logo-footer {
+font-family: 'Roboto';
 color: var(--primary-white-color);
 font-family: 'Raleway';
 font-weight: 700;
@@ -186,27 +193,47 @@ font-size: 26px;
 line-height: 1.2;
 text-decoration: none;
   }
-
+.footer-adress {
+    font-family: 'Roboto';
+    text-decoration: none;
+}
 
 
 
 /* PORTFOLIO */
 
-.portfolio-button .portfolio-button:hover,
-.portfolio-button:active {
+.portfolio-button:hover
+.portfolio-button:focus {
 background-color: var(--accent-color);
 color: var(--primary-white-color);
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 text-align: center;
 cursor: pointer;
 }
-.portfolio-button{
-    cursor: pointer;
+.portfolio-button {
+background-color: var(--second-bg-color);
+color: var(--primary-text-color);
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+cursor: pointer;
+
 }
+
 .second-text-pf{
 font-size: 14px;
 line-height: 1.7;
 color: var(--title-text-color)
+}
+.title-pf {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
