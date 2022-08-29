@@ -167,7 +167,7 @@ letter-spacing: 0.06em;
 /* Footer */
 .footer{
 background-color: var(--black-bg);
-font-family: 'Roboto';
+
 }
 
 .footer-nav {
@@ -182,6 +182,7 @@ text-decoration: none;
 .footer-link:active, .footer-link:hover {
     color:var(--accent-color)
 }
+
 .footer-link  {
 font-family: 'Roboto';
 font-size: 14px;
