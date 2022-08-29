@@ -167,18 +167,19 @@ letter-spacing: 0.06em;
 /* Footer */
 .footer{
 background-color: var(--black-bg);
-
+font-family: 'Roboto';
 }
 
 .footer-nav {
+font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.7;
 color: var(--primary-white-color);
 text-decoration: none;
 
 }
-.footer .footer-nav:hover,
-.footer-nav .footer-link:hover {
+.footer-nav:active, .footer-nav:hover,
+.footer-link:active, .footer-link:hover {
     color:var(--accent-color)
 }
 .footer-link  {
@@ -197,10 +198,6 @@ font-size: 26px;
 line-height: 1.2;
 text-decoration: none;
   }
-.footer-adress {
-    font-family: 'Roboto';
-    text-decoration: none;
-}
 
 
 
@@ -226,8 +223,9 @@ color: var(--primary-white-color);
 }
 
 .second-text-pf{
-font-size: 14px;
-line-height: 1.7;
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.9;
 color: var(--title-text-color)
 }
 .title-pf {
