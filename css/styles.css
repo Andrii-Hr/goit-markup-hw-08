@@ -70,11 +70,31 @@ line-height: 1.2;
 
 /* Site-nav */
 
+.nav-flex{
+display: flex;
+
+}
+
+.site-nav{
+    display:flex;
+    gap: 50px;    
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+.header-logo{
+    margin-right: 93px;
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
 color:var(--accent-color);
 
+}
+.site-nav-post {
+    margin-left: auto;
 }
 
 
@@ -83,6 +103,7 @@ color:var(--accent-color);
 .hero{
     text-align: center;
     background-color: #2F303A;
+    padding: 94px 15px;
 }
 .hero-title {
 margin-top: 0;
@@ -97,78 +118,136 @@ text-transform: uppercase;
 }
 
 /* Containers */
-
-.container-header {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px;
-}
 .container{
-padding-left: 15px;
-padding-right: 15px;
-padding-top: 94px;
-padding-bottom: 94px;
-max-width: 1200px;
+    max-width: 1200px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-header {
+    display:flex;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 0.5px solid tomato;
+
+}
+.container-about{
+
 text-align: center;
+margin: 0 auto;
+
 }
 .cont-works{
     
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px;
     text-align: center;
+    margin: 0 auto;
 }
 .cont-workers{
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px;
+    background-color: var(--second-bg-color);
     text-align: center;
+    margin: 0 auto;
+    
 
 }
 .container-hero {
-    
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px;
+      
     text-align: center;
+    margin: 0 auto;
 }
 .container-footer {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
 }
+.cont-portfolio {
+    
+    margin: 0 auto;
+    text-align: center;
+    
+ }
 
 .no-padding{
     
     padding-top: 0;
     padding-bottom: 0;
+}
+
+/* Flex */
+
+.flex-feature{
+    display:flex;
+        
+    max-width: 1200px;
+    
     
 }
-.section {
-background-color: var(--primary-bg-color);
+.feature-list{
+    display:flex;
 }
-.section-team{
-    background-color: var(--second-bg-color);
-    padding-top: 0;
-    padding-bottom: 0;
+.flex-feature-list {
+    flex-wrap: wrap;
+    display:block;
+    max-width: 270px;
+    
+}
+.flex-feature-list:not(:last-child){
+    margin-left:30px;
+}
 
+.flex-projects {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.flex-projects-name {
+width: calc((100%-3*30px) /3);
+}
+
+.flex-workers{
+    display:flex;
+    flex-wrap: wrap;
+        
+
+}
+.flex-foto-workers{
+    
+    width: calc((100%-3*30px) /4);
+}
+
+.flex-portf-button{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-between ;
+    justify-content: space-evenly
 }
 
 
 /* Section */
 
+.section {
+    padding: 94px 15px;
+    
+}
+.section-team{
+    padding: 94px 15px;
+    background-color: var(--second-bg-color);
+}
+.portfolio-section{
+
+}
+
+
 .header {
 background-color: var(--primary-white-color);
+
 }
 .section-title{
-    margin-top: 0;
-    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 50px;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -180,20 +259,24 @@ background-color: var(--primary-white-color);
 color: var(--primary-text-color);
 }
 .title {
-    margin-top: 0;
-    margin-bottom: 10px;
+margin-top: 0;
+margin-bottom: 10px;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.2;
 text-transform: uppercase;
+display: inline-block;
+width: 270px;
+text-align: left;
 }
+
 .feature-list .link{
     color:var(--primary-text-color);
 }
 .second-text {
     color: var(--title-text-color);
-    
-
+    display: inline-block;
+    text-align: left;
 }
 
 .team-names {
@@ -235,7 +318,9 @@ color: var(--accent-color)
 .link.numb-post {
     color: var(--title-text-color)
 }
-
+.numb-post{
+    margin-left: auto;
+}
 .button {
 display:inline-block;
 border-radius: 4px;

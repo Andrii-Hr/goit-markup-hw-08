@@ -14,25 +14,25 @@
   </head>
   <body>
     <header class="header">
-      <div class="container-header">
-        <nav>
-          <a href="./index.html" class="logo"
+      <div class="container-header container">
+        <nav class="nav-flex">
+          <a class="header-logo logo"   href="./index.html" 
             ><span class="logo-span">Web</span>Studio
           </a>
   
           <ul class="site-nav list">
-            <li><a href="#" class="link current">Студія</a></li>
-            <li><a href="./portfolio.html" class="link ">Портфоліо</a></li>
-            <li><a href="#" class="link ">Контакти</a></li>
+            <li class="site-nav-flex"><a href="#" class="link current">Студія</a></li>
+            <li class="site-nav-flex"><a href="./portfolio.html" class="link ">Портфоліо</a></li>
+            <li class="site-nav-flex"><a href="#" class="link ">Контакти</a></li>
           </ul>
         </nav>
         <ul class="site-nav list">
-          <li>
+          <li class="site-nav-post">
             <a href="mailto:info@devstudio.com" class="link numb-post"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="site-nav-post">
             <a href="tel:+380961111111" class="link numb-post">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -41,83 +41,82 @@
 
     <main>
       <section class="hero">
-        <div class="container-hero">
+        <div class="container-hero container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="button" type="button">Замовити послугу</button>
         </div>
       </section>
 
       <section class="section no-padding">
-        <div class="container">
-          <h2 class="section-title visually-hidden">Наші переваги</h2>
-          <ul class="feature-list list">
-            <li>
-              <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="second-text">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
-              </p>
-            </li>
-            <li>
-              <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="second-text">
-                Завдання організації, особливо рамки і місце навчання кадрів тягне
-                у себе.
-              </p>
-            </li>
-            <li>
-              <h3 class="title">ПЛАНУВАННЯ</h3>
-              <p class="second-text">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
-            </li>
-            <li>
-              <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="second-text">
-                Значимість цих проблем настільки очевидна, що реалізація планових
-                завдань.
-              </p>
-            </li>
-          </ul>
-        </div>
+          <div class="container container-about ">
+            <h2 class="section-title visually-hidden">Наші переваги</h2>
+            <ul class="feature-list list flex-feature">
+              <li class="flex-feature-list">
+                <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="second-text">
+                  Ідейні міркування, і навіть початок повсякденної роботи з
+                  формування позиції.
+                </p>
+              </li>
+              <li class="flex-feature-list">
+                <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="second-text">
+                  Завдання організації, особливо рамки і місце навчання кадрів тягне
+                  у себе.
+                </p>
+              </li>
+              <li class="flex-feature-list">
+                <h3 class="title">ПЛАНУВАННЯ</h3>
+                <p class="second-text">
+                  Так само консультація з широким активом значною мірою зумовлює.
+                </p>
+              </li>
+              <li class="flex-feature-list">
+                <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="second-text">
+                  Значимість цих проблем настільки очевидна, що реалізація планових
+                  завдань.
+                </p>
+              </li>
+            </ul>
+           </div>
         </section>
-        <section class="section no-padding">
-          <div class="cont-works">
-            <h2 class="section-title ">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
-              <img
-                src="./images/img1.jpg"
-                class="photo"
-                width="370"
-                alt="Веб розробка"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/img2.jpg"
-                class="photo"
-                width="370"
-                alt="Мобільні додатки"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/img3.jpg"
-                class="photo"
-                width="370"
-                alt="Комп'ютерне програмування"
-              />
-            </li>
-          </ul>
-          </div>
-        
-      </section>
+          <section class="section no-padding">
+            <div class="cont-works container">
+              <h2 class="section-title ">Чим ми займаємося</h2>
+            <ul class="list flex-projects">
+              <li class="list flex-projects-name">
+                <img
+                  src="./images/img1.jpg"
+                  class="photo"
+                  width="370"
+                  alt="Веб розробка"
+                />
+              </li>
+              <li class="list flex-projects-name">
+                <img
+                  src="./images/img2.jpg"
+                  class="photo"
+                  width="370"
+                  alt="Мобільні додатки"
+                />
+              </li>
+              <li class="list flex-projects-name">
+                <img
+                  src="./images/img3.jpg"
+                  class="photo"
+                  width="370"
+                  alt="Комп'ютерне програмування"
+                />
+              </li>
+            </ul>
+           </div>                
+          </section>
       <section class="section-team no-padding">
-        <div class="cont-workers">
+        <div class="cont-workers container">
           <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <ul class="list flex-workers">
+          <li class="flex-foto-workers">
             <img
               src="./images/igor.jpg"
               alt="Ігор Дем'яненко фото"
@@ -128,7 +127,7 @@
             <p class="text-team">Product Designer</p>
           </li>
 
-          <li>
+          <li class="flex-foto-workers">
             <img
               src="./images/olha.jpg"
               alt="Ольга Рєпіна фото"
@@ -139,7 +138,7 @@
             <p class="text-team">Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="flex-foto-workers">
             <img
               src="./images/mykola.jpg"
               alt="Микола Тарасов фото"
@@ -148,9 +147,9 @@
             />
             <h3 class="team-names">Микола Тарасов</h3>
             <p class="text-team">Marketing</p>
-          </li>
+          </li class="flex-foto-workers">
 
-          <li>
+          <li class="flex-foto-workers">
             <img
               src="./images/mykhailo.jpg"
               alt="Михайло Єрмаков фото"
@@ -166,7 +165,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container-footer">
+      <div class="container-footer container">
       <a class="logo-footer" href="index.html"
         ><span class="logo-span">Web</span>Studio</a
       >
