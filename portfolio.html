@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,94 +11,100 @@
       rel="stylesheet"    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css" />
-</head>
-
-<body class="portfolio-body">
-<header class="portfolio-header">
-<nav>
-<a href="./index.html" class="logo" ><span class="logo-span">Web</span>Studio
-</a>
-
-<ul class="site-nav list">
-    <li> <a href="./index.html" class="link  ">Студія</a></li>
-    <li> <a href="./portfolio.html" class="link  current" >Портфоліо</a></li>
-    <li> <a href="#" class="link ">Контакти</a></li>
-</ul>
-</nav>
-<ul class="site-nav list">
-    <li> <a href="mailto:info@devstudio.com" class="link numb-post">info@devstudio.com</a></li>
-    <li> <a href="tel:+380961111111" class="link numb-post">+38 096 111 11 11</a></li>
-</ul>
-
-</header>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-header container">        
+          <a class="header-logo logo"   href="./index.html" 
+            ><span class="logo-span">Web</span>Studio</a>   
+          <nav class="nav-header">       
+           <ul class="site-nav list">
+             <li><a href="./index.html" class="link site-nav-flex">Студія</a></li>
+             <li><a href="./portfolio.html" class="current link site-nav-flex">Портфоліо</a></li>
+             <li><a href="#" class="link site-nav-flex">Контакти</a></li>
+           </ul>
+          </nav>
+        <div class="second-cont-heder"> 
+        <ul class="contact list">
+          <li class="contact-post">
+            <a href="mailto:info@devstudio.com" class="link numb-post">info@devstudio.com</a>
+          </li>
+          <li class="contact-post"><a href="tel:+380961111111" class="link numb-post">+38 096 111 11 11</a>
+          </li>
+        </ul>
+       </div>
+      </div>
+    </header>
 
  <main class="portfolio-main">
 
 
     <section class="portfolio-section section">
       <div class="cont-portfolio container">
-        <h1 class="visually-hidden">Навігація</h1>
+        <div class="portf-button">
+         <h1 class="visually-hidden">Навігація</h1>
 
-    <ul class="list portfolio-buttons flex-portf-button">
-        <li><button class="portfolio-button" type="button">Усі</button></li>
-        <li><button class="portfolio-button" type="button">Веб-сайти </button></li>
-        <li><button class="portfolio-button" type="button">Додатки </button></li>
-        <li><button class="portfolio-button" type="button">Дизайн </button></li>
-        <li><button class="portfolio-button" type="button">Маркетинг </button></li>
-    </ul>
+          <ul class="list  flex-portf-button">
+            <li class="portf-button-list"><button class="portfolio-button" type="button">Усі</button></li>
+            <li class="portf-button-list"><button class="portfolio-button" type="button">Веб-сайти </button></li>
+            <li class="portf-button-list"><button class="portfolio-button" type="button">Додатки </button></li>
+            <li class="portf-button-list"><button class="portfolio-button" type="button">Дизайн </button></li>
+            <li class="portf-button-list"><button class="portfolio-button" type="button">Маркетинг </button></li>
+          </ul>
+        </div>
+         <div class="portf-gallery">
+          <ul class="list portfolio-projects">
 
-
-        <ul class="list portfolio-projects">
-
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project1.jpg" alt="project 1" width="270" class="">
                 <h3 class="title-pf">Технохряк</h3>
                 <p class="second-text-pf">Веб-сайт</p>
 
 
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project2.jpg" alt="Обкладинка проєкту" width="270" class="">
                 <h3 class="title-pf">Постер New Orlean vs Golden Star</h3>
                 <p class="second-text-pf">Дизайн</p>
 
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project3.jpg" alt="Обкладинка проєкту" width="270" class="">
                 <h3 class="title-pf">Ресторан Seafood</h3>
                 <p class="second-text-pf">Додаток</p>
 
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project4.jpg" alt="Обкладинка проєкту" width="270" class="">
                 <h3 class="title-pf">Проєкт Prime</h3>
                 <p class="second-text-pf">Маркетинг</p>
 
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project5.jpg" alt="Обкладинка проєкту" width="270" class="">
                 <h3 class="title-pf">Проєкт Boxes</h3>
                 <p class="second-text-pf">Додаток</p>
 
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project6.jpg" alt="Обкладинка проєкту" width="270" class="">
                 <h3 class="title-pf">Inspiration has no Borders</h3>
                 <p class="second-text-pf">Веб-сайт</p>
 
 
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project7.jpg" alt="Обкладинкапроєкту" width="270" class="">
                 <h3 class="title-pf">Видання Limited edition</h3>
                 <p class="second-text-pf">Дизайн</p>
 
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project8.jpg" alt="Обкладинка проєкту" width="270" class="">
                 <h3 class="title-pf">Проєкт LAB</h3>
                 <p class="second-text-pf">Маркетинг</p>
 
-            <li>
+            <li class="project-list">
                 <img src="./images/projects/project9.jpg" alt="Обкладинка проєкту" width="270" class="">
                 <h3 class="title-pf">Growing Business</h3>
                 <p class="second-text-pf">Додаток</p>
 
 
-        </ul>
+          </ul>
+       </div>
       </div>
      </section>
 
@@ -107,6 +113,7 @@
 
 
 <footer class="footer">
+  <div class="container-footer container">
   <a class="logo-footer" href="index.html"
     ><span class="logo-span">Web</span>Studio</a
   >
@@ -134,6 +141,7 @@
       </li>
     </ul>
   </address>
+ </div>
 </footer>
 
 </body>
