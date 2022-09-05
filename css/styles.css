@@ -212,12 +212,14 @@ max-width: 1200px;
 
 .flex-feature{
     display:flex;        
-    align-items: center;      
+    align-items: top;      
     max-width: 270px;
     gap: 30px;
+    
 }
 
 .flex-feature-list {
+    
 
 
     
@@ -246,8 +248,8 @@ border: 1px solid  rgba(116, 93, 93, 0.1);
 /* Section */
 
 .section {
-    padding-left: 0;
-    padding-right: 0;
+    /* padding-left: 15px;
+    padding-right: 15px; */
     padding-top: 94px;
     
 }
