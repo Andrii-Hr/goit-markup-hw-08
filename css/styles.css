@@ -142,15 +142,12 @@ color:var(--accent-color);
 
 /* Hero */
 
-.hero{
-    
+.hero{    
     text-align: center;  
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;    
     background-size: contain;    
-    padding-left:  15px;
-    padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1600px;
