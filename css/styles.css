@@ -106,6 +106,8 @@ margin-right: 10px;
 .link-icon:hover,
 .link-icon:focus{
     text-shadow: 3px 5px 4px rgba(0,0,0,0.19);
+    
+    
 }
 
 .site-nav-flex {
@@ -174,6 +176,7 @@ background-size: contain;
 margin-right: auto;
 margin-left: auto;
 max-width: 1600px;
+
 }
 
 .hero-title {
@@ -304,6 +307,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .project-list:hover .description-text {
 transform: translateY(0);
+
 }
 
 .flex-workers{
@@ -354,6 +358,8 @@ left: 0;
 width: 100%;
 height: 100%;
 background-color: rgba(0, 0, 0, 0.2);
+opacity: 1;
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -372,6 +378,7 @@ min-width: 528px;
 padding: 50px;
 
 background-color: var(--primary-white-color);
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -496,6 +503,8 @@ margin-bottom: 30px;
   border-radius: 50%;
   color: var(--icon-color);
   background-color: transparent;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
 
 }  
 
@@ -540,11 +549,16 @@ height: 44px;
 border-radius: 50%;
 color: var(--primary-white-color);
 background-color: rgba(255, 255, 255, 0.1);
+transition-property: color, background-color;
+  transition-duration: 250ms;
+
+
 }
 .join-list:hover,
 .join-list:focus{
 background-color:  var(--accent-color);
 color: var(--primary-white-color);
+
 }
 
 .our-partners{
@@ -562,6 +576,9 @@ justify-content: center;
 border: 1px solid #AFB1B8;
 border-radius: 5px;
 background-color: var(--primary-bg-color);
+transition-property: fill,  border-color;
+  transition-duration: 250ms;
+
 }
 
 .partners-number:hover .icons-partners,
@@ -575,6 +592,8 @@ background-color: var(--primary-bg-color);
 
 .icons-partners{
 fill: var(--icon-color);
+transition-property: fill;
+  transition-duration: 250ms;
 }
 
 /* Butoon */
@@ -582,6 +601,8 @@ fill: var(--icon-color);
 
 
 .numb-post {
+    transition-property: color, text-shadow;
+transition-duration: 250ms;
     color: var(--title-text-color)
 }
 .numb-post:hover,
@@ -602,6 +623,8 @@ font-size: 16px;
 line-height: 1.9;
 cursor: pointer;
 letter-spacing: 0.06em;
+transition-property: color, background-color;
+transition-duration: 250ms;
 }
 .button:active,
 .button:hover {
@@ -624,6 +647,8 @@ font-size: 14px;
 line-height: 1.7;
 color: var(--primary-white-color);
 text-decoration: none;
+transition-property: color;
+transition-duration: 250ms;
 
 }
 .footer-nav:active, .footer-nav:hover,
@@ -678,7 +703,9 @@ text-decoration: none;
     list-style: none;
 
 }
-.project-list{          
+.project-list{  
+    transition-property: background-color;
+transition-duration: 250ms;        
 background-color: var(--primary-bg-color); 
 
 }
@@ -709,6 +736,8 @@ line-height: 1.6;
 text-align: center;
 cursor: pointer;
 padding:  6px 22px;
+transition-property: color, background-color, box-shadow;
+transition-duration: 250ms;
 }
 
 .portfolio-button:hover,
@@ -716,6 +745,9 @@ padding:  6px 22px;
 background-color: var(--accent-color);
 color: var(--primary-white-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+opacity: 1;
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .second-text-pf{
