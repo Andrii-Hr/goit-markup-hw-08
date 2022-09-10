@@ -591,6 +591,10 @@ align-items: center;
     margin: 0px;
     padding: 5px;
   }
+  .icon-close-modal{
+    color:#000000
+  }
+  
   .icon-close-modal:hover,
   .icon-close-modal:focus{    
     fill:var(--accent-color);
