@@ -284,9 +284,6 @@ align-items: center;
 .profects-id{
     background-color: var(--primary-bg-color);
 }
-.flex-projects-name{
-  
-}
 
 .description {
 position: relative;
@@ -314,7 +311,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .project-list:hover .description-text {
 transform: translateY(0);
-
 }
 
 .flex-workers{
@@ -354,7 +350,6 @@ left: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
 /* Modal */
 
@@ -393,12 +388,8 @@ align-items: center;
     padding: 40px;
   
     background: var(--primary-bg-color);
-  }
-  
-  .form.js-speaker-form {
-    position: relative;
-  }
-  
+  } 
+   
   .form-title {
     display: block;
     margin-bottom: 30px;
@@ -445,6 +436,7 @@ align-items: center;
     line-height: 1.14;
     letter-spacing: 0.01em;
     color: var(--title-text-color);
+    
   }
     
   .form-input:focus {
@@ -495,10 +487,11 @@ align-items: center;
   .form-icon {
     position: absolute;
     top: 50%;
-    left: 16px;
+    left: 12px;
     fill: var(--title-text-color);
   
     transform: translateY(-50%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   
   .form-input:focus ~ .form-icon {
@@ -545,11 +538,10 @@ align-items: center;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .checkbox:checked + .checkbox-icon {
-    transform: scale(1.2);
+  .checkbox:checked + .checkbox-icon {    
     border-color: transparent;
     background-color: var(--accent-color);
-    background-image: url("../images/icon-check.svg");
+    background-image: url("../images/check.svg");
     background-size: contain;
     background-origin: border-box;
   }
@@ -585,19 +577,23 @@ align-items: center;
   
   .close-button {
     position: absolute;
-    top: 25px;
-    right: 0px;  
+    top: 20px;
+    right: 5px;
     width: 30px;
-    height: 30px;   
+    height: 30px;
     border: none;
     border-radius: 50%;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2), 2px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 1px 3px rgba(0, 0, 0, 0.12);
-    background-color: var(--primary-bg-color);
-    transform-origin: 0px 0px;
+    box-shadow: 0px 2px 1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    background-color: var(--main-bg-color);    
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0px;
+    padding: 5px;
   }
-  .close-button:hover{
-    color: var(--accent-color);
+  .icon-close-modal:hover,
+  .icon-close-modal:focus{    
+    fill:var(--accent-color);
   }
 
 
