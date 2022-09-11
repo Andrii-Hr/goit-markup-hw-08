@@ -965,6 +965,11 @@ img {
   color: var(--primary-text-color);
 }
 
+.advantage__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .advantage__container {
   display: flex;
   text-align: center;
