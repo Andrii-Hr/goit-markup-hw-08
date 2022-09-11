@@ -1,0 +1,24 @@
+.advantage {
+    background-color: var(--second-bg-color);
+    max-width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    color: var(--primary-text-color);
+  }
+  .advantage__container {
+    display: flex;
+    text-align: center;
+    max-width: 1200px;
+  }
+  .advantage__list {
+    display: flex;
+    align-items: top;
+    max-width: 270px;
+    gap: 30px;
+    color: var(--primary-text-color);
+  }
+  

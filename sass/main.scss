@@ -1,0 +1,23 @@
+@use 'sass:math';
+
+@import "./base/normalise";
+
+
+@import "./utils/placeholders";
+@import "./utils/base";
+@import "./utils/variables";
+@import "./utils/funcsion";
+
+@import "./components/repeat";
+@import "./components/buttons";
+@import "./components/social-list";
+
+@import "./sections/header";
+@import "./sections/portfolio";
+@import "./sections/hero";
+@import "./sections/modal";
+@import "./sections/advantage";
+@import "./sections/ourworks";
+@import "./sections/team";
+@import "./sections/partners";
+@import "./sections/footer";

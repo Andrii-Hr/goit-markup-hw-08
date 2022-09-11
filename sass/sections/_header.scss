@@ -1,0 +1,123 @@
+.header {
+    background-color: var(--primary-white-color);
+    border-bottom: 0.01px solid #ececec;
+  }
+  .header__logo-span {
+    color: var(--accent-color);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  .header__logo {
+  margin-right: 93px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+  
+  .site-nav__pages {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  .site-nav__name {
+  color: var(--primary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  content: "";
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+}
+.site-nav__name:hover,
+.site-nav__name:focus {
+  color: var(--accent-color);
+}
+.nav-form {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: auto;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.nav-form__item {
+    transition-property: color, text-shadow;
+    transition-duration: 250ms;
+    color: var(--title-text-color);
+  }
+  .nav-form__item:hover,
+  .nav-form__item:focus {
+    color: var(--accent-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .nav-form__contact {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+  .nav-form__list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15px;
+    letter-spacing: 0.02em;
+  }
+  /* Site-nav */
+
+.link-icon {
+  fill: currentColor;
+  margin-right: 10px;
+  transition-property: text-shadow;
+  transition-duration: 250ms;
+}
+.link-icon:hover,
+.link-icon:focus {
+  text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.19);
+}
+
+
+
+.current::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 45px;
+  left: 0;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link.current {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--primary-text-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
