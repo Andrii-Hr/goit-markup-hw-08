@@ -18,8 +18,8 @@
   }
   .footer__nav:active,
   .footer__nav:hover,
-  .footer-link:active,
-  .footer-link:hover {
+  .footer__link:active,
+  .footer__link:hover {
     color: var(--accent-color);
   }
   .footer__adress {
@@ -28,19 +28,23 @@
   
   .footer__link {
     font-family: "Roboto";
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
   }
-  .footer-link-mail {
+  .footer__link-mail {
+    // font-family: 'Roboto';
+    // font-style: normal;
     display: inline-block;
     margin-bottom: 9px;
     font-family: "Roboto";
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+    text-decoration: none;   
+    
   }
   .footer__logo {
     display: inline-block;
@@ -63,6 +67,8 @@
     transition-property: color, text-shadow;
     transition-duration: 250ms;
     color: var(--title-text-color);
+    text-decoration: none;
+    font-style: normal;
   }
   .footer__numb-post:hover,
   .footer__numb-post:focus {
