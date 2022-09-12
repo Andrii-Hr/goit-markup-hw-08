@@ -1,38 +1,37 @@
-.ourworks{
-    padding-bottom: 94px;
-    text-align: center;
-  }
-  .ourworks__cont {
-    text-align: center;
-  }
-  .ourworks__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  .ourworks__item {
-    content: "";
-    position: relative;
-  }
-  .ourworks__text {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--primary-white-color);
-  
-    content: "";
-    position: absolute;
-    background-color: rgba(47, 48, 58, 0.8);
-    width: 100%;
-    height: 70px;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.ourworks {
+  padding-bottom: 94px;
+  text-align: center;
+}
+.ourworks__cont {
+  text-align: center;
+}
+.ourworks__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.ourworks__item {
+  content: "";
+  position: relative;
+}
+.ourworks__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
 
+  content: "";
+  position: absolute;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
