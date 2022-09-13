@@ -1,0 +1,18 @@
+$main-color: #fff;
+$accent-color: #232323;
+$bg-color: rgba(8, 143, 206, 0.747);
+$roboto: "Roboto";
+$mobile: 479.98px;
+$tablet: 767.98px;
+$desktop: 1199.98px;
+
+
+
+@media screen and(min-width: $tablet) {
+    
+}
+@media screen and(min-width: $desktop) {
+    
+}
+// width: calc((100% - 12 * 15px) / 6);
+// width: calc((100% - 8 * 15px) / 4);

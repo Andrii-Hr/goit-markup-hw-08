@@ -1,48 +1,66 @@
-@mixin font($fs, $fw, $lh, $ls) {
-	font-size: $fs;
-	font-weight: $fw;
-	line-height: $lh;
-	letter-spacing: $ls;
-}
+// @mixin font($fs, $fw, $lh, $ls) {
+// 	font-size: $fs;
+// 	font-weight: $fw;
+// 	line-height: $lh;
+// 	letter-spacing: $ls;
+// }
 
-@mixin min480 {
-	@media screen and (min-width: 480px) {
-		@content;
-	}
-}
+// @mixin min480 {
+// 	@media screen and (min-width: 480px) {
+// 		@content;
+// 	}
+// }
 
-@mixin max479 {
-	@media screen and (max-width: 479px) {
-		@content;
-	}
-}
+// @mixin max479 {
+// 	@media screen and (max-width: 479px) {
+// 		@content;
+// 	}
+// }
 
-@mixin min768 {
-	@media screen and (min-width: 768px) {
-		@content;
-	}
-}
+// @mixin min768 {
+// 	@media screen and (min-width: 768px) {
+// 		@content;
+// 	}
+// }
 
-@mixin max767 {
-	@media screen and (max-width: 767px) {
-		@content;
-	}
-}
+// @mixin max767 {
+// 	@media screen and (max-width: 767px) {
+// 		@content;
+// 	}
+// }
 
-@mixin min768-max1199 {
-	@media screen and (min-width: 768px) and (max-width: 1199px) {
-		@content;
-	}
-}
+// @mixin min768-max1199 {
+// 	@media screen and (min-width: 768px) and (max-width: 1199px) {
+// 		@content;
+// 	}
+// }
 
-@mixin min1200 {
-	@media screen and (min-width: 1200px) {
-		@content;
-	}
-}
+// @mixin min1200 {
+// 	@media screen and (min-width: 1200px) {
+// 		@content;
+// 	}
+// }
 
-@mixin max1199 {
-	@media all and (max-width: 1199px) {
-		@content;
-	}
-}
+// @mixin max1199 {
+// 	@media all and (max-width: 1199px) {
+// 		@content;
+// 	}
+// }
+
+// @mixin breakpoint($point) {
+//   @if $point==mobile {
+//     @media only screen and (min-width: 479.98px) {
+//       @content;
+//     }
+//   }
+//   @if $point==tablet {
+//     @media only screen and (min-width: 767.98px) {
+//       @content;
+//     }
+//   }
+//   @if $point==laptop {
+//     @media only screen and (min-width: 1199.98px) {
+//       @content;
+//     }
+//   }
+// }

@@ -12,10 +12,43 @@
 .header__logo {
   margin-right: 93px;
 }
-.header__container {
+.header__inner {
   display: flex;
   align-items: center;
 }
+
+@media screen and(min-width:$tablet) {
+  .header__inner {
+    display: flex;
+  }
+  .header__mobile {
+    display: none;
+  }
+  .header__contacts {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+// @media screen and (min-width: 1200px) {
+//   .nav-form {
+//     flex-direction: row;
+//   }
+//   .nav-form__list + .nav-form__list {
+//     margin-left: 10px;
+//   }
+// }
+
+
+//  .nav-form__contact{
+
+//   @media screen and (min-width: $desctop){
+//     display: flex;
+//     .nav-form__list:not(:last-child){
+//       margin-right: 10px;
+//     }
+//   }
+//  }
+
 
 .site-nav {
   align-items: center;

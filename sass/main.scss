@@ -5,8 +5,11 @@
 
 @import "./utils/placeholders";
 @import "./utils/base";
+@import "./utils/vars";
 @import "./utils/variables";
 @import "./utils/funcsion";
+@import "./utils/mixins";
+
 
 @import "./components/repeat";
 @import "./components/buttons";
@@ -21,3 +24,4 @@
 @import "./sections/partners";
 @import "./sections/footer";
 @import "./sections/modal";
+@import "./sections/mobile-menu";
