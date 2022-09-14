@@ -50,7 +50,22 @@
 
 .hero__title {
   /* display:inline-block; */
-  max-width: 696px;
+ 
+  @media screen and (max-width: 767px) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    max-width: 360px;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+  }
+  @media screen and (min-width: 767px) {
+
+  }
+  @media screen and (max-width: 1199px) {    
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -60,4 +75,6 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  max-width: 696px;
+  }
 }

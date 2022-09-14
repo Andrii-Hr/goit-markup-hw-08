@@ -83,6 +83,15 @@
   &:hover .projects__text {
     transform: translateY(0);
   }
+  max-width: 450px;
+  border: 1px solid #eeeeee;
+  @media screen and (min-width: 768px){
+    max-width: 354px;
+    }
+  
+    @media screen and (min-width: 1200px){
+      max-width: 370px;
+    }
 }
 
 .projects__description > img {
@@ -93,6 +102,7 @@
   max-width: 370px;
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  
 }
 
 .projects__second-text {
@@ -122,7 +132,7 @@
   line-height: 1.55;
   color: var(--primary-white-color);
   position: absolute;
-  padding: 24px 63px;
+  padding: 77px 24px;
   left: 0;
   top: 0;
   width: 100%;
@@ -133,4 +143,13 @@
   transition-duration: 250ms;
   /* transition: transform 250ms ease  ; */
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: $tablet) {
+    
+  padding: 49px 24px 77px 24px;
+  
+  }
+  @media screen and(min-width: $desktop){
+    padding: 63px 24px;
+  }
+
 }

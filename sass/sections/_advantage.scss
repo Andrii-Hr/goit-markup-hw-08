@@ -40,3 +40,19 @@
   background-color: var(--second-bg-color);
   color: var(--primary-text-color);
 }
+.advantage__item .second-text{
+  
+  @media screen and (max-width: $tablet) {
+    display:block;
+    justify-content: flex-start;
+}
+}
+.advantage__item .title{
+  display: inline-block;
+  text-align: center;  
+ 
+@media screen and (min-width: $tablet) {
+  display:block;
+  text-align: left;
+  }
+}
