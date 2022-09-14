@@ -1,7 +1,14 @@
 .section {
-  /* padding-left: 15px;
-      padding-right: 15px; */
-  // padding-top: 94px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+  padding-bottom: 94px;
+  }
+  @media screen and (max-width: 1199.98px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+ 
+ 
 }
 .no-padding {
   padding-top: 0;
@@ -43,12 +50,18 @@
   fill: currentColor;
 }
 .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  max-width: 480px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media screen and(min-width: $tablet) {
+    max-width: 768px;
+  }
+  @media screen and(min-width: $desktop) {
+    max-width: 1200px;
+  }
+  }
 .link {
   text-decoration: none;
   color: var(--primary-text-color);
