@@ -672,7 +672,20 @@ img {
 }
 
 .portfolio-section {
-  padding: 94px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }
 
 .cont-portfolio {
@@ -884,24 +897,23 @@ img {
   }
 }
 
-.hero__title {
-  /* display:inline-block; */
-  color: var(--primary-white-color);
-  font-family: "Roboto";
-  font-style: normal;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.61;
-  max-width: 360px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
+@media screen and (max-width: 1200px) {
+  .hero__title {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto";
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    max-width: 360px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
@@ -1003,26 +1015,11 @@ img {
 @media screen and (max-width: 1200px) {
   .ourworks {
     display: none;
-    padding-top: 90px;
-    padding-bottom: 90px;
   }
 }
 .ourworks {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
   text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .ourworks {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .ourworks {
-    padding-top: 90px;
-    padding-bottom: 90px;
-  }
 }
 
 .ourworks__cont {
@@ -1171,6 +1168,9 @@ img {
   gap: 30px;
 }
 
+.partners__list {
+  height: 92px;
+}
 @media screen and (max-width: 479.98px) {
   .partners__list {
     width: calc((100% - 30px) / 2);
@@ -1184,13 +1184,11 @@ img {
 @media screen and (min-width: 767.98px) {
   .partners__list {
     width: 226px;
-    height: 92px;
   }
 }
 @media screen and (min-width: 1199.98px) {
   .partners__list {
     width: 170px;
-    height: 92px;
   }
 }
 
@@ -1200,6 +1198,7 @@ img {
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 5px;
+  height: 100%;
   background-color: var(--primary-bg-color);
   transition-property: fill, border-color;
   transition-duration: 250ms;
@@ -1224,6 +1223,7 @@ img {
 }
 
 .footer__container {
+  align-items: stretch;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -1319,15 +1319,26 @@ img {
 }
 
 .footer__numb-post {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
   transition-property: color, text-shadow;
   transition-duration: 250ms;
-  color: var(--title-text-color);
   text-decoration: none;
   font-style: normal;
 }
 .footer__numb-post:hover, .footer__numb-post:focus {
   color: var(--accent-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 1199.98px) {
+  .join {
+    margin-right: 93px;
+  }
 }
 
 .join__title {
@@ -1339,6 +1350,11 @@ img {
   text-transform: uppercase;
   color: var(--primary-white-color);
   margin-bottom: 20px;
+}
+@media screen and (max-width: 1199.98px) {
+  .join__title {
+    text-align: center;
+  }
 }
 
 .join__list {
@@ -1450,7 +1466,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   padding-left: 16px;
-  width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1460,6 +1475,16 @@ img {
 @media screen and (max-width: 1199.98px) {
   .subscribe__second-text {
     margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 767.98px) {
+  .subscribe__second-text {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .subscribe__second-text {
+    width: 358px;
   }
 }
 
@@ -1740,19 +1765,8 @@ img {
   width: 40px;
   height: 40px;
 }
-
-.menu-close-btn {
-  display: block;
-  margin-left: auto;
-  margin-bottom: 5px;
-  border-radius: 50%;
-  background-color: transparent;
-  border: 1px solid transparent;
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  width: 40px;
-  height: 40px;
+.menu-close-btn:hover, .menu-close-btn:focus {
+  color: var(--accent-color);
 }
 
 .mob-menu {

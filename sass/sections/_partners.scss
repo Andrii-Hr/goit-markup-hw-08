@@ -39,21 +39,24 @@
      
 }
 .partners__list{
+  height: 92px;
   @media screen and (max-width: $mobile) {
     width:calc((100% - 30px )/2);
     
     }
     @media screen and (min-width: $mobile) {
       width: 210px;
+      
     }
     @media screen and (min-width: $tablet) {
-    width: 226px;
-    height: 92px;
-  }
-  @media screen and (min-width: $desktop) {
-    width: 170px;
-    height: 92px; 
-  }
+      width: 226px;
+      
+    }
+    @media screen and (min-width: $desktop) {
+      width: 170px;
+       
+    }
+    
 }
 .partners__number {   
   display: flex;
@@ -61,6 +64,7 @@
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 5px;
+  height: 100%;
   background-color: var(--primary-bg-color);
   transition-property: fill, border-color;
   transition-duration: 250ms;
@@ -71,6 +75,7 @@
   &:hover,
   &:focus {
     border-color: var(--accent-color);
+    
   }
   
 }
