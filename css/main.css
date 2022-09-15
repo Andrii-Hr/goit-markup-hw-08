@@ -397,6 +397,16 @@ img {
   line-height: 1.16;
   text-align: center;
 }
+@media screen and (max-width: 1200px) {
+  .section-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+  }
+}
 
 .list {
   padding: 0;
@@ -1155,6 +1165,16 @@ img {
 @media screen and (min-width: 1199.98px) {
   .partners__title {
     margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .partners__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
   }
 }
 
