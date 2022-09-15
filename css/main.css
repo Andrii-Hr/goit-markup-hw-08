@@ -1759,13 +1759,13 @@ img {
   height: 100%;
 }
 
-.mob-menu__name {
+.mob-menu__name.link {
   content: "";
   position: relative;
   transition-property: color;
   transition-duration: 250ms;
 }
-.mob-menu__name:hover, .mob-menu__name:focus {
+.mob-menu__name.link:hover, .mob-menu__name.link:focus {
   color: var(--accent-color);
 }
 

@@ -75,16 +75,16 @@
 .mob-memu__cont{
   height: 100%;
 }
-.mob-menu__name{
- 
-  content: "";
-  position: relative;
-  transition-property: color;
-  transition-duration: 250ms;
+.mob-menu__name.link{
   &:hover,
   &:focus {
     color: var(--accent-color);
   }
+  content: "";
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  
 }
 .mob-box-01{
   height: 100%;
