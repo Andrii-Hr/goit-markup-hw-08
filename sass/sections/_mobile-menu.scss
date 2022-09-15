@@ -85,17 +85,17 @@
 }
 
   .mob-menu.container {
-      padding-top: 48px;
-      padding-bottom: 48px;
-      padding-left: 40px;
-      height: 100%;
+      // padding-top: 48px;
+      // padding-bottom: 48px;
+      // padding-left: 40px;
+      // height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       
   }
   .mob-menu__navigation{
-    
+    padding-top: 48px;
 
   }
   .mob-menu__item:not(:last-child) {
