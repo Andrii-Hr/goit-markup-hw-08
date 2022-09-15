@@ -1,4 +1,15 @@
 .partners {
+  padding-top: 60px;
+  padding-bottom: 60px;  
+  @media screen and(min-width: 768px) {
+  padding-top: 60px;
+  padding-bottom: 60px; 
+  }
+  @media screen and(min-width: 1200px) {
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  }
  }
 .partners__container {
   

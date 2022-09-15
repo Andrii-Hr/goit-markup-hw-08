@@ -1,12 +1,42 @@
-$main-color: #fff;
-$accent-color: #232323;
-$bg-color: rgba(8, 143, 206, 0.747);
+
 $roboto: "Roboto";
 $mobile: 479.98px;
 $tablet: 767.98px;
 $desktop: 1199.98px;
 
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;  
+    @media screen and(min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px; 
+    }
+    @media screen and(min-width: 1200px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
 
+    }
+ }
+ .container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  @media screen and (min-width: 480px) {
+      width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+      width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+      width: 1200px;
+  }
+}
+  body {
+    &.overflow {
+      overflow: hidden;
+    }
+  }
 
 @media screen and(min-width: $tablet) {
     

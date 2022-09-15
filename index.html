@@ -23,7 +23,7 @@
   <body>
     
  
-  <header class="header">
+  <header class="header">   
     <div class="header__container container">
       <a class="header__logo logo" href="./index.html"
         ><span class="header__logo-span">Web</span>Studio</a
@@ -61,63 +61,76 @@
       </div>
     </div>
     
+  <div class="second-logo">
+    <a class="header__logo-mobile logo" href="./index.html"
+        ><span class="header__logo-span">Web</span>Studio</a
+      >
+      <button type="button" class="menu-open-btn" data-menu-open>
+        <svg class="menu" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu1"></use>
+        </svg>
+    </button>
+    </div>
+
+
     <div class="mob-menu is-hidden" data-menu>
-      <div class="container">
-          <div class="mob-box-01">
+      <div class="mob-memu__cont container">
+          <div class="mob-box-01">            
               <button type="button" class="menu-close-btn" data-menu-close>
-                  <svg class="menu" width="40" height="40">
-                      <use href="./img/icons.svg#icon-close-sprit"></use>
+                  <svg class="menu" width="24" height="19">
+                      <use href="./images/icons.svg#icon-close-black"></use>
                   </svg>
               </button>
               <nav class="mob-menu__navigation">
                   <ul class="mob-menu__list list">
                       <li class="mob-menu__item">
-                          <a href="./index.html" class="mob-menu__link link">Студія</a>
+                          <a href="./index.html" class="mob-menu__name link">Студія</a>
                       </li>
                       <li class="mob-menu__item">
-                          <a href="./portfolio.html" class="mob-menu__link link">Портфоліо</a>
+                          <a href="./portfolio.html" class="mob-menu__name link">Портфоліо</a>
                       </li>
                       <li class="mob-menu__item">
-                          <a href="" class="mob-menu__link link">Контакти</a>
+                          <a href="" class="mob-menu__name link">Контакти</a>
                       </li>
                   </ul>
               </nav>
+              <div class="mob-box-02">
+                <ul class="mob-menu__contacts list">
+                    <li class="mob-menu__com"> 
+                        <a href="tel:+380961111111" class="mob-menu__nubmer link">
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                    <li class="mob-menu__com">
+                        <a href="mailto:info@devstudio.com" class="mob-menu__email link">
+                            info@devstudio.com
+                        </a>
+                    </li>
+                </ul>
+                <ul class="mob-soc list">
+                    <li class="mob-soc__item">
+                        <a href="" class="mob-soc__link link">Instagram</a>
+                    </li>
+                    <li class="mob-soc__item">
+                        <a href="" class="mob-soc__link link">Twitter</a>
+                    </li>
+                    <li class="mob-soc__item">
+                        <a href="" class="mob-soc__link link">Facebook</a>
+                    </li>
+                    <li class="mob-soc__item">
+                        <a href="" class="mob-soc__link link">LinkdIn</a>
+                    </li>
+                </ul>
+            </div>
           </div>
-          <div class="mob-box-02">
-              <ul class="mob-menu__contacts list">
-                  <li class="mob-menu__com"> 
-                      <a href="tel:+380961111111" class="mob-menu__tel link">
-                          +38 096 111 11 11
-                      </a>
-                  </li>
-                  <li class="mob-menu__com">
-                      <a href="mailto:info@devstudio.com" class="mob-menu__email link">
-                          info@devstudio.com
-                      </a>
-                  </li>
-              </ul>
-              <ul class="mob-soc list">
-                  <li class="mob-soc__item">
-                      <a href="" class="mob-soc__link link">Instagram</a>
-                  </li>
-                  <li class="mob-soc__item">
-                      <a href="" class="mob-soc__link link">Twitter</a>
-                  </li>
-                  <li class="mob-soc__item">
-                      <a href="" class="mob-soc__link link">Facebook</a>
-                  </li>
-                  <li class="mob-soc__item">
-                      <a href="" class="mob-soc__link link">LinkdIn</a>
-                  </li>
-              </ul>
-          </div>
+          
       </div>
     </div>
   </header>
 
 
     <main>
-      <section class="hero">
+      <section class="hero ">
         <div class="hero__container container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button class="button" type="button" data-open-modal>
@@ -127,7 +140,7 @@
       </section>
 
 
-      <section class="advantage section no-padding">
+      <section class="advantage no-padding">
         <div class="container advantage__container">
           <h2 class="section-title visually-hidden">Наші переваги</h2>
           <ul class="list advantage__list">
@@ -184,7 +197,7 @@
 
       
 
-      <section class="ourworks section no-padding">
+      <section class="ourworks no-padding">
         <div class="ourworks__cont container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="list ourworks__list">
@@ -227,7 +240,7 @@
 
       
 
-      <section class="team section no-padding">
+      <section class="team no-padding">
         <div class="team__container container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="list team__group">
@@ -519,7 +532,7 @@
 
       
 
-      <section class="partners section no-padding">
+      <section class="partners no-padding">
         <div class="partners__container container">
           <h2 class="partners__title">Постійні клієнти</h2>
           <ul class="partners__group list">
@@ -696,9 +709,7 @@
         <div class="subscribe">
            <div class="subscribe__title-block">
           <h2 class="subscribe__text">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
-          <div class="subscribe__email">
-            
-            <label for="mail"></label>
+          <div class="subscribe__email">                       
             <input
               class="subscribe__second-text"
               type="email"
@@ -706,12 +717,13 @@
               id="mail"
               placeholder="E-mail"
             />
-           </div>
             <button class="subscribe__button" type="submit">
               Підписатися<span class="subscribe__icon"
                 ><svg width="24" height="24" class="icons">
                   <use href="./images/icons.svg#icon-telegramm"></use></svg></span>
             </button>
+           </div>
+            
           </div>
         </div>
       </div>
@@ -790,6 +802,8 @@
         </butoon>
       </div>
     </div>
+
+    <script src="./js/mobile-menu.js"></script>
 
     <script src="./js/modal.js"></script>
   </body>

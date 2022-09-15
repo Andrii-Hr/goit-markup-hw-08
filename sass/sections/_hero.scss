@@ -57,7 +57,9 @@
 .hero__title {
   /* display:inline-block; */
   color: var(--primary-white-color);
-  
+  font-family: 'Roboto';
+  font-style: normal;
+  text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -82,5 +84,9 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   max-width: 696px;
+  font-family: 'Roboto';
+font-style: normal;
+text-align: center;
+
   }
 }
